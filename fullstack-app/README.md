@@ -91,7 +91,7 @@ cp .env.example .env
 
 4. Update `.env` with your configuration:
 ```env
-PORT=5000
+PORT=5001
 MONGODB_URI=mongodb://localhost:27017/myapp
 NODE_ENV=development
 JWT_SECRET=your_jwt_secret_key_here
@@ -106,7 +106,7 @@ npm run dev
 npm start
 ```
 
-Backend will run on `http://localhost:5000`
+Backend will run on `http://localhost:5001`
 
 ### Frontend Setup
 
@@ -127,7 +127,7 @@ cp .env.example .env
 
 4. Update `.env` if needed:
 ```env
-REACT_APP_API_URL=http://localhost:5000/api
+REACT_APP_API_URL=http://localhost:5001/api
 ```
 
 5. Start the development server:
@@ -213,7 +213,7 @@ The build folder will contain optimized production files.
 ## 🔐 Environment Variables
 
 ### Backend (.env)
-- `PORT` - Server port (default: 5000)
+- `PORT` - Server port (default: 5001)
 - `MONGODB_URI` - MongoDB connection string
 - `NODE_ENV` - Environment (development/production)
 - `JWT_SECRET` - Secret key for JWT tokens
